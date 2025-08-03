@@ -1,0 +1,57 @@
+/* Navbar Styling */
+.nav-bar a, .nav-bar .nav-link {
+  text-decoration: none;  /* Removes underline */
+  color: inherit;  /* Makes the color the same as the parent */
+}
+
+
+.nav-bar{
+  display: flex;
+  background-color: rgb(30, 30, 255);
+  margin: 0;
+  top:0;
+  left: 0;
+  right:0;
+  color: white;
+  position: fixed;
+  padding: 15px;
+  ul,li{
+    list-style: none;
+    display: inline-block;
+  }
+  .left-nav{
+    margin: 0;
+  }
+  .right-nav{
+    margin: 0;
+    margin-left:59%;
+    display: flex;
+    li{
+      margin-left: 30px;
+    }
+  }
+}
+.login-main{
+  button{
+    background-color: rgb(121, 121, 255);
+    border-color: white;
+    color: white;
+  }
+  margin-top: 140px;
+  margin-left: 26%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width:40%;
+  padding: 100px;
+  label,input{
+    margin-bottom: 7px;
+  }
+}
+table{
+  margin-left: 45%;
+}

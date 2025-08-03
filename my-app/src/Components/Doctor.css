@@ -1,0 +1,32 @@
+.doctor-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.doctor-box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.doctor-box h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.doctor-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.doctor-box li {
+  margin-bottom: 8px;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
